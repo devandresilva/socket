@@ -24,7 +24,7 @@ try:
 except socket.error as e: 
     print ("Socket error: %s" %str(e)) 
 except Exception as e: 
-    print ("Other exception: %s" %str(e)) 
+    print ("Outra excessão: %s" %str(e)) 
 finally: 
     print ("Conexão encerrada com o servidor!") 
     client.close() 
