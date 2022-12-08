@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "json-socket": "^0.3.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
