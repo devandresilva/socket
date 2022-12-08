@@ -7,7 +7,7 @@ class ProcessData():
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  
 server.bind (('localhost', 7777))
 print('Aguardando conexões.\n')
-server.listen(1)
+server.listen(5)
 
 connection, address = server.accept()
 print('Esperando entradas do usuário')
